@@ -1,0 +1,15 @@
+.listFilmGenre {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 64px 40px;
+}
+
+@media (max-width: 1200px) {
+  .listFilmGenre {
+    justify-content: center;
+    gap: 24px;
+  }
+}

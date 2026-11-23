@@ -1,0 +1,26 @@
+.favorite {
+  padding: 14px 21px;
+  margin-right: 16px;
+  border-radius: 28px;
+  border-width: 1px;
+  border: 1px solid #00000066;
+  background: #393b3c;
+}
+
+.img {
+  width: 24px;
+  height: 24px;
+  mask: url("/public/icon/favorite.svg");
+  background-color: #ffffff;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+.imgYes {
+  width: 24px;
+  height: 24px;
+  mask: url("/public/icon/favoriteYes.svg");
+  background-color: #b4a9ff;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}

@@ -1,0 +1,159 @@
+.cardFilm {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+}
+
+.text {
+  margin: 0;
+  margin-bottom: 60px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffffb2;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  width: 680px;
+  height: 552px;
+  border-radius: 16px;
+}
+
+.random {
+  padding: 14px 21px;
+  margin-right: 16px;
+  border-radius: 28px;
+  border-width: 1px;
+  border: 1px solid #00000066;
+  background: #393b3c;
+}
+
+.randomSvg {
+  width: 24px;
+  height: 24px;
+  mask: url("/public/icon/random.svg");
+  background-color: #ffffff;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+.favorite {
+  padding: 14px 21px;
+  margin-right: 16px;
+  border-radius: 28px;
+  border-width: 1px;
+  border: 1px solid #00000066;
+  background: #393b3c;
+}
+
+.imgaaaaaa {
+  width: 24px;
+  height: 24px;
+  mask: url("/public/icon/favorite.svg");
+  background-color: #ffffff;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+.imgYes {
+  width: 24px;
+  height: 24px;
+  mask: url("/public/icon/favoriteYes.svg");
+  background-color: #b4a9ff;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+.imgNo {
+  width: 24px;
+  height: 24px;
+  mask: url("/public/icon/favoriteNo.svg");
+  background-color: #ffffff;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+.primary {
+  width: 180px;
+  padding: 16px;
+  margin-right: 16px;
+  border-radius: 28px;
+  background: #393b3c;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.primary:hover {
+  background: #67a5eb;
+}
+
+.primary:disabled {
+  background: #747474;
+}
+
+@media (max-width: 1200px) {
+  .cardFilm {
+    margin-bottom: 52px;
+    flex-direction: column-reverse;
+  }
+
+  .img {
+    margin-bottom: 24px;
+    width: 338px;
+    height: 234px;
+    border-radius: 16px;
+  }
+
+  .title {
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .text {
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .buttonsBottom {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .primary {
+    width: auto;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+
+  .favorite {
+    margin: 0;
+  }
+
+  .random {
+    margin: 0;
+  }
+}

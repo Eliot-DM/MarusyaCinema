@@ -1,0 +1,58 @@
+.authModal {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  width: 420px;
+  padding: 64px 40px;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 24px;
+  gap: 12px;
+  z-index: 5;
+}
+
+.logo {
+  margin-bottom: 40px;
+}
+
+.exit {
+  position: absolute;
+  top: 0;
+  right: -72px;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  background: #ffffff;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  background-color: #ffffff;
+}
+
+@media (max-width: 1200px) {
+  .authModal {
+    width: 335px;
+
+    padding-top: 64px;
+    padding-right: 20px;
+    padding-bottom: 32px;
+    padding-left: 20px;
+    gap: 32px;
+  }
+  .logo {
+    margin-bottom: 0;
+  }
+
+  .exit {
+    right: 0;
+  }
+}

@@ -1,0 +1,55 @@
+.cardFilmFavorite {
+  position: relative;
+  width: 225px;
+  height: 335px;
+  border-radius: 16px;
+  border-width: 1px;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 62px;
+  height: 48px;
+  top: -12px;
+  left: -12px;
+  border-radius: 50px;
+  align-items: center;
+  background: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #6a5dc2;
+}
+
+.delete {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: -20px;
+  top: -20px;
+  border-radius: 50px;
+  background: #ffffff;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.2s ease,
+    visibility 0.2s ease;
+  cursor: pointer;
+  border: none;
+  background-image: url(/public/icon/exit.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cardFilmFavorite:hover .delete {
+  opacity: 1;
+  visibility: visible;
+}
+.img {
+  width: 225px;
+  height: 335px;
+  border-radius: 16px;
+  border-width: 1px;
+}

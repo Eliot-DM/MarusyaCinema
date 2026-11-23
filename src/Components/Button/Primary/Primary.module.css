@@ -1,0 +1,25 @@
+.button {
+  width: 180px;
+  padding: 16px;
+  margin-right: 16px;
+  border-radius: 28px;
+  background: #393b3c;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.button:hover {
+  background: #67a5eb;
+}
+
+.button:disabled {
+  background: #747474;
+}
+
+@media (max-width: 1200px) {
+  .button {
+    margin: 0;
+  }
+}

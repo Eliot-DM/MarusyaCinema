@@ -1,0 +1,14 @@
+.listFilmFavorite {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+@media (max-width: 1200px) {
+  .listFilmFavorite {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+}

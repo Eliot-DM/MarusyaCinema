@@ -1,0 +1,70 @@
+.inputSearch {
+  position: relative;
+}
+
+.input {
+  width: 655px;
+  padding: 12px 16px 12px 52px;
+  background: #393b3c;
+  border: none;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff80;
+}
+
+.svgSearch {
+  width: 24px;
+  height: 24px;
+  mask: url("/public/icon/search.svg");
+  background-color: #ffffff80;
+  position: absolute;
+  top: 12px;
+  left: 16px;
+}
+
+.svgExit {
+  /* display: none; */
+  width: 24px;
+  height: 24px;
+  mask: url("/public/icon/exit.svg");
+  background-color: #ffffff80;
+  position: absolute;
+  right: 16px;
+  top: 12px;
+}
+
+@media (max-width: 1200px) {
+  .inputSearch {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .input {
+    width: 270px;
+  }
+
+  .input::placeholder {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .svgExit {
+    display: block;
+    width: 24px;
+    height: 24px;
+    mask: url("/public/icon/exit.svg");
+    background-color: #ffffff80;
+    position: absolute;
+    right: 16px;
+    top: 12px;
+  }
+}

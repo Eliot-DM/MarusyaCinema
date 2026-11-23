@@ -1,0 +1,65 @@
+.button {
+  position: absolute;
+  top: 0;
+  right: -72px;
+  border-radius: 30px;
+  height: 48px;
+  width: 48px;
+  background-image: url(/public/closeButton.svg);
+}
+
+.text {
+  position: absolute;
+  bottom: 0;
+  width: 920px;
+  height: 80px;
+  margin: 20px;
+
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+.trailerModal {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+.player {
+  position: relative;
+  width: 960px;
+  height: 540px;
+  background-color: #000;
+}
+
+@media (max-width: 1200px) {
+  .player {
+    width: 663px;
+    height: 375px;
+  }
+
+  .text {
+    width: 663px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 720px) {
+  .player {
+    width: 375px;
+    height: 212px;
+  }
+
+  .text {
+    width: 375px;
+  }
+}

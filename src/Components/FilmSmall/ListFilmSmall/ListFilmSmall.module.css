@@ -1,0 +1,20 @@
+.listFilmSmall {
+  right: 0;
+  margin-top: 15px;
+  position: absolute;
+  z-index: 10;
+  width: 560px;
+  padding: 8px;
+  border-radius: 8px;
+  background: #393b3c;
+}
+
+@media (max-width: 1200px) {
+  .listFilmSmall {
+    left: 0;
+    margin-top: 8px;
+    display: flex;
+    width: 320px;
+    overflow-x: scroll;
+  }
+}

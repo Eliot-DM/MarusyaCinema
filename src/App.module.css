@@ -1,0 +1,86 @@
+.app {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1440px;
+}
+
+.content {
+  position: relative;
+}
+
+.navMenu {
+  margin: 24px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navMenuSmall {
+  display: none;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-decoration: none;
+  background: none;
+  color: #ffffff;
+}
+
+.link:hover {
+  border-bottom: 1px solid #dc5dfc;
+  margin-bottom: -1px;
+}
+
+.linkGenres {
+  width: 25px;
+  height: 25px;
+  background-image: url(../public/genres.svg);
+}
+
+.linkUser {
+  width: 25px;
+  height: 25px;
+  background-image: url(../public/user.svg);
+  background-color: transparent;
+}
+
+@media (max-width: 1200px) {
+  .app {
+    padding: 0 12px;
+    max-width: 375px;
+  }
+  .linkAccount {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    background-image: url(../public/userTrue.svg);
+    background-color: transparent;
+  }
+  .navMenu {
+    display: none;
+  }
+
+  .navMenuSmall {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menuSmall {
+    display: flex;
+  }
+
+  .linkGenres {
+    margin-right: 20px;
+  }
+
+  .linkSearch {
+    margin-right: 20px;
+    width: 25px;
+    height: 25px;
+    background-image: url(../public/search.svg);
+    background-color: transparent;
+  }
+}
