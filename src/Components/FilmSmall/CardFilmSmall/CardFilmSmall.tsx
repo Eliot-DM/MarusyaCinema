@@ -20,7 +20,7 @@ export const CardFilmSmall: FC<P> = ({ movie }) => {
         <MainFeatures
           rating={movie.tmdbRating}
           date={movie.relaseYear}
-          genre={movie.genres[0]}
+          genre={movie.genres}
           time={movie.runtime}
           big={false}
         />
