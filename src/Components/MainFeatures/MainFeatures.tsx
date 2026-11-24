@@ -47,7 +47,7 @@ export const MainFeatures: FC<P> = ({
       >
         <img
           className={styles.imgSmall}
-          src="/public/icon/star.svg"
+          src={`${import.meta.env.BASE_URL}icon/star.svg`}
           alt=""
         ></img>
         <p className={styles.numberSmall}>{Math.round(rating * 10) / 10}</p>

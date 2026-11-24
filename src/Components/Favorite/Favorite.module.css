@@ -10,7 +10,7 @@
 .img {
   width: 24px;
   height: 24px;
-  mask: url("/public/icon/favorite.svg");
+  mask: url("/MarusyaCinema/icon/favorite.svg");
   background-color: #ffffff;
   mask-repeat: no-repeat;
   mask-position: center;
@@ -19,7 +19,7 @@
 .imgYes {
   width: 24px;
   height: 24px;
-  mask: url("/public/icon/favoriteYes.svg");
+  mask: url("/MarusyaCinema/icon/favorite.svg");
   background-color: #b4a9ff;
   mask-repeat: no-repeat;
   mask-position: center;
