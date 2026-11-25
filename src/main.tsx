@@ -10,7 +10,7 @@ import { store } from "./store/store.ts";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="/MarusyaCinema/">
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <QueryClientProvider client={queryClient}>
           <App />
         </QueryClientProvider>

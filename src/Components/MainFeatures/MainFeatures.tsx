@@ -33,7 +33,11 @@ export const MainFeatures: FC<P> = ({
       <div
         className={`${styles.rating}  ${Color(Math.round(rating * 10) / 10)}`}
       >
-        <img className={styles.img} src="/public/icon/star.svg" alt=""></img>
+        <img
+          className={styles.img}
+          src={`${import.meta.env.BASE_URL}icon/star.svg`}
+          alt=""
+        ></img>
         <p className={styles.number}>{Math.round(rating * 10) / 10}</p>
       </div>
       <p className={styles.text}>{date}</p>

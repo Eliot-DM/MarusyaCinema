@@ -24,7 +24,7 @@
 .svgSearch {
   width: 24px;
   height: 24px;
-  mask: url("/public/icon/search.svg");
+  mask: url("/MarusyaCinema/icon/search.svg");
   background-color: #ffffff80;
   position: absolute;
   top: 12px;
@@ -35,7 +35,7 @@
   /* display: none; */
   width: 24px;
   height: 24px;
-  mask: url("/public/icon/exit.svg");
+  mask: url("/MarusyaCinema/icon/exit.svg");
   background-color: #ffffff80;
   position: absolute;
   right: 16px;
@@ -61,7 +61,7 @@
     display: block;
     width: 24px;
     height: 24px;
-    mask: url("/public/icon/exit.svg");
+    mask: url("/MarusyaCinema/icon/exit.svg");
     background-color: #ffffff80;
     position: absolute;
     right: 16px;

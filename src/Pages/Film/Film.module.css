@@ -5,9 +5,6 @@
   align-items: center;
 }
 
-.info {
-}
-
 .title {
   margin: 0;
   margin-bottom: 16px;
@@ -49,7 +46,7 @@
 .randomSvg {
   width: 24px;
   height: 24px;
-  mask: url("/public/icon/random.svg");
+  mask: url("/MarusyaCinema/icon/random.svg");
   background-color: #ffffff;
   mask-repeat: no-repeat;
   mask-position: center;
@@ -75,7 +72,7 @@
 .imgNo {
   width: 24px;
   height: 24px;
-  mask: url("/public/icon/favoriteNo.svg");
+  mask: url("/MarusyaCinema/icon/favoriteNo.svg");
   background-color: #ffffff;
   mask-repeat: no-repeat;
   mask-position: center;
@@ -84,7 +81,7 @@
 .imgYes {
   width: 24px;
   height: 24px;
-  mask: url("/public/icon/favoriteYes.svg");
+  mask: url("/MarusyaCinema/icon/favoriteYes.svg");
   background-color: #b4a9ff;
   mask-repeat: no-repeat;
   mask-position: center;

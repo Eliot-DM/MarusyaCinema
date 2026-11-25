@@ -41,14 +41,22 @@ export const Account = () => {
           onClick={() => setActiveSection("favorites")}
           className={style.button}
         >
-          <img className={style.img} src="/public/icon/favorite.svg" alt="" />
+          <img
+            className={style.img}
+            src={`${import.meta.env.BASE_URL}icon/favorite.svg`}
+            alt=""
+          />
           Избранные фильмы
         </button>
         <button
           onClick={() => setActiveSection("settings")}
           className={style.button}
         >
-          <img className={style.img} src="/public/icon/userWhite.svg" alt="" />
+          <img
+            className={style.img}
+            src={`${import.meta.env.BASE_URL}icon/userWhite.svg`}
+            alt=""
+          />
           Настройка аккаунта
         </button>
       </div>
@@ -57,14 +65,22 @@ export const Account = () => {
           onClick={() => setActiveSection("favorites")}
           className={style.button}
         >
-          <img className={style.img} src="/public/icon/favorite.svg" alt="" />
+          <img
+            className={style.img}
+            src={`${import.meta.env.BASE_URL}icon/favorite.svg`}
+            alt=""
+          />
           Избранное
         </button>
         <button
           onClick={() => setActiveSection("settings")}
           className={style.button}
         >
-          <img className={style.img} src="/public/icon/userWhite.svg" alt="" />
+          <img
+            className={style.img}
+            src={`${import.meta.env.BASE_URL}icon/userWhite.svg`}
+            alt=""
+          />
           Настройки
         </button>
       </div>

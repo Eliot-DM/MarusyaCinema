@@ -32,7 +32,7 @@
 .svg {
   width: 24px;
   height: 24px;
-  mask: url("/public/icon/email.svg");
+  mask: url("/MarusyaCinema/icon/email.svg");
   background-color: #000000;
   position: absolute;
   top: 16px;
@@ -48,14 +48,14 @@
 }
 
 .email {
-  mask: url("/public/icon/email.svg");
+  mask: url("/MarusyaCinema/icon/email.svg");
 }
 
 .password {
-  mask: url("/public/icon/password.svg");
+  mask: url("/MarusyaCinema/icon/password.svg");
 }
 .user {
-  mask: url("/public/icon/user.svg");
+  mask: url("/MarusyaCinema/icon/user.svg");
 }
 
 .error {

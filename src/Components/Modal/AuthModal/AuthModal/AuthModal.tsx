@@ -39,9 +39,13 @@ export const AuthModal = () => {
           dispatch(authExit());
         }}
       >
-        <img src="/public/icon/exit.svg" alt="" />
+        <img src={`${import.meta.env.BASE_URL}icon/exit.svg`} alt="" />
       </button>
-      <img className={styles.logo} src="/public/logoLight.png" alt="" />
+      <img
+        className={styles.logo}
+        src={`${import.meta.env.BASE_URL}logoLight.png`}
+        alt=""
+      />
       {renderContent()}
       {authModalForm == "login" && (
         <button
