@@ -38,7 +38,7 @@
     visibility 0.2s ease;
   cursor: pointer;
   border: none;
-  background-image: url(/public/icon/exit.svg);
+  background-image: url(/MarusyaCinema/icon/exit.svg);
   background-repeat: no-repeat;
   background-position: center;
 }

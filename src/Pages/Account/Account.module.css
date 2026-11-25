@@ -97,7 +97,7 @@
 .imgEmail {
   width: 24px;
   height: 24px;
-  background-image: url(/public/icon/mailWhite.svg);
+  background-image: url(/MarusyaCinema/icon/mailWhite.svg);
 }
 
 @media (max-width: 1200px) {

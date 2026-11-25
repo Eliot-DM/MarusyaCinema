@@ -36,13 +36,13 @@
 .linkGenres {
   width: 25px;
   height: 25px;
-  background-image: url(../public/genres.svg);
+  background-image: url(/MarusyaCinema/genres.svg);
 }
 
 .linkUser {
   width: 25px;
   height: 25px;
-  background-image: url(../public/user.svg);
+  background-image: url(/MarusyaCinema/user.svg);
   background-color: transparent;
 }
 
@@ -55,7 +55,7 @@
     width: 25px;
     height: 25px;
     margin-right: 20px;
-    background-image: url(../public/userTrue.svg);
+    background-image: url(/MarusyaCinema/userTrue.svg);
     background-color: transparent;
   }
   .navMenu {
@@ -80,7 +80,7 @@
     margin-right: 20px;
     width: 25px;
     height: 25px;
-    background-image: url(../public/search.svg);
+    background-image: url(/MarusyaCinema/search.svg);
     background-color: transparent;
   }
 }
